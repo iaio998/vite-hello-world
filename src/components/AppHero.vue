@@ -1,26 +1,25 @@
-<template lang="">
+    <template lang="">
     
-    <div>
-        <img :src="image" alt="">
-    </div>
-    
+        <div>
+            <img :src="image" alt="">
+        </div>
+        
     </template>
     
     <script>
-    export default {
-        name: 'AppHero',
-        data(){
-            return {
-                image: "../../public/img/naruto_img.jpg",
+        export default {
+            name: 'AppHero',
+            data(){
+                return {
+                    image: "../../public/img/naruto_img.jpg",
+            }
         }
-    }
-    }
-
+        }
     </script>
     
     <style scoped>
-    div {
-        display: flex;
-        justify-content: center;
-    }
+        div {
+            display: flex;
+            justify-content: center;
+        }
     </style>

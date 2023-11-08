@@ -4,7 +4,7 @@
  <div class="hero">
   <AppHero/>
  </div>
-    
+
 </template>
 
 <script>
@@ -27,7 +27,7 @@ export default {
 <style lang="css">
   .title {
     margin-top: 100px;
-    text-align:center; 
+    text-align:center;
     margin-bottom: 5px;
   };
 /* .hero {
