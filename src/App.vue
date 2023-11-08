@@ -1,21 +1,21 @@
 <template>
 
-  <div>
+  <AppTitle/>
     
-  </div>
-
 </template>
 
 <script>
+import AppTitle from "./components/icons/appTitle.vue"
 export default {
-  name:'App',
-  components:{},
+  components:{
+    AppTitle,
+  },
   data (){
     return {
 
     }
   },
-  methods
+  methods:{},
 }
 </script>
 
